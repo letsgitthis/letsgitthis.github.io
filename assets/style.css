@@ -1,5 +1,5 @@
 body {
-    background-color: #efeee7;
+    background-color: skyblue;
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -49,3 +49,20 @@ a {
 #contact-info {
     width: 30%;
 }
+/*
+  Page will resize when browser dimensions reach 768px or less.
+*/
+@media screen and (max-width: 768px) {
+    /* The wrapper's width will be 600px */
+    .container {
+      width: 600px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    /* The wrapper's width will be 600px */
+    .container {
+      width: 400px;
+    }
+  }
+  
