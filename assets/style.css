@@ -1,10 +1,24 @@
 body {
-    background-color: skyblue;
+    display: block;
     margin: 0;
+    margin-bottom: 100px;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 150%;
+    background-color: lightblue;
+}
+
+#figure {
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    background-image: url(./images/placeholder.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -21,25 +35,34 @@ h2 {
     font-size: 24px;
 }
 
+p {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
 #bio-image {
     max-width: fit-content;
     max-height: 200px;
     padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 a {
     color: #d21034;
 }
 
-.container {
-    width: 1024px;
-    margin: 0 auto;   
+.container { 
+    width: 1024px;  
+    margin: 0 auto;
 }
 
 #main-bio,
 #contact-info,
 #bio-image {
-    float: left;
+    flex-wrap: inherit;
 }
 
 #main-bio {
@@ -48,21 +71,25 @@ a {
 
 #contact-info {
     width: 30%;
-}
+} 
+
+
+
+
 /*
   Page will resize when browser dimensions reach 768px or less.
 */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) { */
     /* The wrapper's width will be 600px */
-    .container {
-      width: 600px;
-    }
-  }
+    /* .container { */
+      /* width: 600px; */
+    /* } */
+  /* } */
   
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) { */
     /* The wrapper's width will be 600px */
-    .container {
-      width: 400px;
-    }
-  }
+    /* .container { */
+      /* width: 400px; */
+    /* } */
+  /* } */
   
