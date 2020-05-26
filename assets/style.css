@@ -6,7 +6,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 150%;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-image:url(./images/background-image.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
 }
 
 /* #figure {
@@ -25,7 +32,7 @@ body {
     width: 100%;
 } */
 
-h1 {
+h1, h2 {
     background-color: black;
     color: #efeee7;
     margin: 0;
@@ -33,26 +40,61 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 28px;
+    opacity: .8;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .menu {
-  width: 100%;
-  background-color: black;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.background {
-    /* height: 100%; */
-    height: 500px;
     width: 100%;
-    background-image:url(./images/background-image.jpeg) ;
-    background-size: cover;
-    background-position: center;
+    background-color: black;
+    opacity: .8;
+    display: flex;
+    flex-direction: row-reverse;
+    /* color: white; */
 }
 
-h2 {
-    font-size: 24px;
+a {
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+ul, li, a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    background-color: black;
+    opacity: 1.6;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
 }
 
 p {
@@ -68,14 +110,12 @@ p {
     max-width: fit-content;
     max-height: 300px;
     border-radius: 50%;
-    display: flex;
-    /* padding-right: 20px;
-    padding-bottom: 20px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
 }
 
-a {
-    color: #d21034;
-}
 
 /* .container { 
     width: 1024px;  
