@@ -7,16 +7,17 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
-        <link rel="stylesheet" type="text/css" href="assets/dark.css">
+        <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/CSS/dark.css">
+        <link rel="stylesheet" type="text/css" href="assets/CSS/mobile.css">
     </head>
     <body>
         <header>
-            <div class="container1">
+            <div class="container-fluid">
                 <nav class="navigation row">
                     <h1 class="col-4">Portfolio</h1>
-                    <h2 class="name col-4">JohnBentley</h2>
-                    <div class="menu col-4">
+                    <!-- <h2 class="name col-4">JohnBentley</h2> -->
+                    <div class="menu col-8">
                         <ul>
                             <li><a href="#home">Home</a></li>
                             <li><a href="#projects">Projects</a></li>
@@ -25,16 +26,12 @@
                             <li><a href="#settings">Settings</a>
                                 <ul>
                                     <li><a>
-                                        <div class="container2"></div>
-                                        <div class="row">
-                                                <div class="dark-mode">Dark</div>
-                                                <label class="switch">
-                                                    <input type="checkbox" id="theme-switcher">
-                                                    <span class="slider round"></span>
-                                                </label>
-                                                <div class="light-mode">Light</div>
-                                            </div>
-                                        </div>
+                                        <div class="dark-mode row">Dark</div>
+                                            <label class="switch">
+                                            <input type="checkbox" id="theme-switcher">
+                                            <span class="slider round"></span>
+                                            </label>
+                                        <div class="light-mode">Light</div>
                                     </a></li>
                                 </ul>
                             </li>
@@ -51,20 +48,7 @@
         </figure>
 
         <div id="content wrapper">
-        <div class="container2 dark">
-            <div class="row">
-                <div class="dark-mode col-2">
-                    Dark Mode
-                </div>
-                <label class="switch col-1">
-                    <input type="checkbox" id="theme-switcher">
-                    <span class="slider round"></span>
-                </label>
-                <div class="light-mode col-2">
-                    Light Mode
-                </div>
-            </div>
-    
+        <div class="container1 dark">
             <div class="row">
                 <div id="main-bio">
                 </div>

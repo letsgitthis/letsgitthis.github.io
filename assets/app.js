@@ -1,5 +1,5 @@
 var themeSwitcher = document.querySelector("#theme-switcher");
-var container = document.querySelector(".container2");
+var container = document.querySelector(".container1");
 var mode = "dark";
 
 themeSwitcher.addEventListener("click", function() {

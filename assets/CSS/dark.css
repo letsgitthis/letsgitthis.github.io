@@ -21,16 +21,6 @@ body {
     text-decoration: none;
   }
   
-  .footer {
-    /* width: 100%; */
-    /* position: absolute; */
-    /* padding-top: 50px; */
-    /* bottom: 0px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
   /* Dark Mode */
   .dark {
     background-color: #333;
