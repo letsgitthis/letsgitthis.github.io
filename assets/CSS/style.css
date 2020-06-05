@@ -16,31 +16,6 @@ body {
     width: 100%;
 }
 
-/* .background {
-    height: 500px;
-    width: 100%;
-    background-image:url(./images/background-image.jpeg) ;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-} */
-
-/* #figure {
-    height: 200px;
-    width: 200px;
-    margin: 25px;
-    background-image: url(./images/placeholder.jpeg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .container1 {
-    width: 100%;
-} */
-
 h1, h2 {
     background-color: black;
     color: #efeee7;
@@ -51,12 +26,6 @@ h1, h2 {
     font-size: 28px;
     opacity: .8;
 }
-
-/* .name {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
 
 .menu {
     width: 100%;
@@ -93,7 +62,7 @@ ul li a {
 
 ul li a:hover {
     background-color: black;
-    /* opacity: 1.6; */
+    opacity: 1.6;
     color:  white;
 }
 
