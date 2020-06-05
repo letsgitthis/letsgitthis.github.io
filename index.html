@@ -7,22 +7,36 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
         <link rel="stylesheet" type="text/css" href="assets/CSS/dark.css">
         <link rel="stylesheet" type="text/css" href="assets/CSS/mobile.css">
+        <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
     </head>
     <body>
-        <header>
-            <div class="container-fluid">
-                <nav class="navigation row">
-                    <h1 class="col-4">Portfolio</h1>
-                    <!-- <h2 class="name col-4">JohnBentley</h2> -->
-                    <div class="menu col-8">
+        <div class="container-fluid">
+            <header>
+                <nav class="menu"> 
                         <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="#about">About</a></li>
+                            <li>
+                                <!-- class="col-4" -->
+                                <h1>Portfolio</h1>
+                            </li>
+                            <li><a href="#home">Home</a>
+                                <ul>
+                                <li><a>
+                                        <div class="test">Test</div>
+                                        <div class="test1">Test1</div>
+                                    </a></li>
+                                </ul>
+                                </li>
+                            <li><a href="#projects">Projects</a>
+
+                            </li>
+                            <li><a href="#contact">Contact</a>
+
+                            </li>
+                            <li><a href="#about">About</a>
+
+                            </li>
                             <li><a href="#settings">Settings</a>
                                 <ul>
                                     <li><a>
@@ -36,19 +50,60 @@
                                 </ul>
                             </li>
                         </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!-- <header>
+            <div class="container-fluid">
+                <nav class="navigation row">
+                    <h1 class="col-4">Portfolio</h1>
+                    <div class="menu col-8">
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#home" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Settings</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Dark Mode</a>
+                                    <a class="dropdown-item" href="#">Light Mode</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="#settings" class="nav-link">Settings</a>
+                                <ul>
+                                    <li><a>
+                                            <div class="dark-mode row">Dark
+                                                <label class="switch">
+                                                    <input type="checkbox" id="theme-switcher">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                            <div class="light-mode">Light</div>
+                                        </a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </nav>
             </div>
-        </header>
+        </header> -->
         
-        <figure class="container1 background">
+        <figure class="container-fluid background">
             <div class="row">
                 <img id="bio-image" src="https://ca.slack-edge.com/T01137GL2PK-U011EAPGT62-190ed6554597-512" alt="profile picture">
             </div>
         </figure>
 
         <div id="content wrapper">
-        <div class="container1 dark">
+        <div class="body-container dark">
             <div class="row">
                 <div id="main-bio">
                 </div>
@@ -77,6 +132,15 @@
             </div>
         </div>
     </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
         <script type="text/javascript" src="./assets/app.js"></script>  
     </body>
     <div class="container">
