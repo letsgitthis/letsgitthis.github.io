@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Title -->
         <title>John's Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="assets/CSS/dark.css">
         <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
-        <!-- <link rel="stylesheet" type="text/css" href="assets/CSS/mobile.css"> -->
+        <link rel="stylesheet" type="text/css" href="assets/CSS/mobile.css">
+        <link rel="icon" href="../letsgitthis.github.io/assets/images/curriculum.png">
+        
     </head>
     <body>
         <div class="container-fluid">
-            <header>
+            <header class="row">
                 <nav class="menu"> 
+                    <div class="col-8">
+                        <h1>Portfolio</h1>
+                    </div>
                         <ul>
-                            <li>
-                                <h1>Portfolio</h1>
-                            </li>
                             <li><a href="#home">Home</a>
                                 <ul>
                                 <li><a>
@@ -46,7 +50,7 @@
                             <li><a href="#settings">Settings</a>
                                 <ul>
                                     <li><a>
-                                        <div class="dark-mode row">Dark</div>
+                                        <div class="dark-mode">Dark</div>
                                             <label class="switch">
                                             <input type="checkbox" id="theme-switcher">
                                             <span class="slider round"></span>
@@ -56,6 +60,18 @@
                                 </ul>
                             </li>
                         </ul>
+                    <!-- attempting to set mobile nav bar features -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse">                       
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"></li>
+                            <li class="nav-item active"></li>
+                            <li class="nav-item"></li>
+                        </ul>
+                    </div>
+                    <!-- end of mobild nav bar build -->
                 </nav>
             </header>
         </div>
@@ -67,7 +83,7 @@
         </figure>
 
         <div id="content wrapper">
-        <div class="body-container dark">
+        <div class="body-container">
             <div class="row">
                 <div id="main-bio">
                 </div>
@@ -96,21 +112,24 @@
             </div>
         </div>
     </div>
+    <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-            crossorigin="anonymous"></script>
-            <script type="text/javascript" src="./assets/app.js"></script>  
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/app.js"></script>
         </body>
-    <footer class="footer row">
-        <h4>Made By JohnBentley</h4>
-        <p>2020 Portfolio</p>
-        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+    <div class="container">        
+        <footer class="footer row">
+            <h4>Made By JohnBentley</h4>
+            <p>2020 Portfolio</p>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
                 href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    </footer>
+            </footer>
+        </div>
 </html>

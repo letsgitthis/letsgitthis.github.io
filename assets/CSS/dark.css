@@ -1,9 +1,9 @@
 
 
-body {
+/* body {
     display: block;
     margin: 0px;
-  }
+  } */
   
   /* ul {
     list-style-type: none;
@@ -24,8 +24,8 @@ body {
   } */
   
   /* Dark Mode */
-  .dark {
-    background-color: #333;
+  .body-container {
+    /* background-color: #333; */
     color: white;
     height: 100vh;
   }

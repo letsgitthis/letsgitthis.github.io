@@ -7,13 +7,24 @@ body {
     font-size: 18px;
     line-height: 150%;
     height: 100%;
-    max-height: 500px;
+    max-height: 300px;
+    background-color: #333;
     background-image:url(../images/background-image.jpeg) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
     width: 100%;
+}
+
+#bio-image {
+    max-width: fit-content;
+    max-height: 350px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 420px;
 }
 
 h1, h2 {
@@ -33,7 +44,7 @@ h1, h2 {
     background-color: black;
     opacity: .8;
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     /* make fluid */
     /* color: white; */
 }
@@ -87,21 +98,8 @@ p {
     padding-right: 50px;
 }
 
-#bio-image {
-    max-width: fit-content;
-    max-height: 300px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 350px;
-}
-
 .footer {
-    /* width: 100%; */
-    /* position: absolute; */
-    /* padding-top: 50px; */
-    /* bottom: 0px; */
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
