@@ -105,6 +105,12 @@ p {
     align-items: center;
 }
 
+#main-bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /* #main-bio,
 #contact-info,
 #bio-image {
