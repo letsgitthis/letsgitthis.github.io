@@ -18,13 +18,17 @@ body {
 }
 
 #bio-image {
-    max-width: fit-content;
+    width: 350px;
     max-height: 350px;
     border-radius: 50%;
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 420px;
+    /* margin-top: 420px; */
+    background-image:url("../images/profile-image.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 h1, h2 {
