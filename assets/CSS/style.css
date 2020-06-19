@@ -9,26 +9,49 @@ body {
     height: 100%;
     max-height: 300px;
     background-color: #333;
-    background-image:url(../images/background-image.jpeg) ;
+    /* background-image:url(../images/background-image.jpeg) ;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     margin: 0;
     width: 100%;
 }
 
+.nav-wrapper {
+    background-color: black;
+    /* opacity: 0.7; */
+    overflow: visible;
+}
+
+.brand-logo {
+    margin-left: 10px;
+}
+
+.parallax-container {
+    margin-top: -64px;
+    width: 100%;
+}
+
+.background-image {
+    height: 100vh;
+    width: 100%;
+}
+
+/* image is too narrow to fill circle */
 #bio-image {
     width: 350px;
+    height: 350px;
     max-height: 350px;
     border-radius: 50%;
-    /* display: block; */
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 420px; */
+    margin-top: -195px;
     background-image:url("../images/profile-image.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    overflow: visible;
 }
 
 h1, h2 {
