@@ -27,10 +27,14 @@ body {
     margin-left: 10px;
 }
 
-.parallax-container {
+.nav-tabs li a {
+    font-size: larger;
+}
+
+/* .parallax-container {
     margin-top: -64px;
     width: 100%;
-}
+} */
 
 .background-image {
     height: 100vh;
