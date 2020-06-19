@@ -29,6 +29,7 @@ body {
 
 .nav-tabs li a {
     font-size: larger;
+    padding-top: 10px;
 }
 
 /* .parallax-container {
