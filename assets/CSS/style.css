@@ -91,6 +91,16 @@ h1, h2 {
     /* color: white; */
 }
 
+.carousel-video {
+    height: 300px;
+    width: 300px;
+}
+
+.card-video {
+    height: 350px;
+    width: 100%;
+}
+
 ul {
     margin: 0;
     padding: 0;
