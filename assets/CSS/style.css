@@ -58,6 +58,16 @@ body {
     overflow: visible;
 }
 
+.quote {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2 {
     background-color: black;
     color: #efeee7;
@@ -131,9 +141,7 @@ p {
 
 .footer {
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 #main-bio {
@@ -141,17 +149,3 @@ p {
     flex-direction: row;
     justify-content: center;
 }
-
-/* #main-bio,
-#contact-info,
-#bio-image {
-    flex-wrap: inherit;
-} */
-
-/* #main-bio {
-    width: 70%;
-}
-
-#contact-info {
-    width: 30%;
-}  */
