@@ -1,6 +1,8 @@
 # letsgitthis.github.io
 portfolio
 
+![demo](./assets/images/john-portfolio.gif)
+
 This project is ongoing.
 
 Currently, the page has become somewhat responsive to screen size. I'm currently working on fixing issues related 
