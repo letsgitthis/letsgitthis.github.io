@@ -112,15 +112,16 @@ h1, h2 {
 }
 
 .carousel-video {
-    height: 200px;
-    width: 300px;
+    /* height: 200px;
+    width: 300px; */
+    width: 100%;
 }
 
-.card-video {
+/* .card-video {
     height: 306px !important;
     width: 576px !important;
     margin-left: 20%;
-}
+} */
 
 .temporary-link {
     display: flex;
