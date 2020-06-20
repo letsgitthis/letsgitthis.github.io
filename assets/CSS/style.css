@@ -91,14 +91,23 @@ h1, h2 {
     /* color: white; */
 }
 
+.sidenav {
+    background-color: black;
+}
+
+.sidenav a {
+    color: white !important;
+}
+
 .carousel-video {
     height: 300px;
     width: 300px;
 }
 
 .card-video {
-    height: 350px;
-    width: 100%;
+    height: 306px !important;
+    width: 576px !important;
+    margin-left: 20%;
 }
 
 ul {
