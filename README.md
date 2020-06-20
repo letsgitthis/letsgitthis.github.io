@@ -5,8 +5,6 @@ portfolio
 
 This project is ongoing.
 
-Currently, the page has become somewhat responsive to screen size. I'm currently working on fixing issues related 
-to scaling up on a mobile screen so that the content becomes larger. The goal was to have the profile picture, paragragh, and contact links to be side by side on desktop, then flex wrap in the same order. Image top, paragragh middle, contacts on bottom.
+I completely rebuilt the entire Portfolio again because I had learned so much from Project 1 that there were very specific things I wanted to include in my Portfolio. It should now be responsive and work on mobile, and include links that display things I've been working on over the last few months.
 
-I am also working on including an optional dark theme, and navigation. These are on hold until I correct the current issues.
-Site will be updated to Github whenever progress has been made.
+I am also working on including an optional dark theme, and the menu should navigate you to new pages. If not, the page is not finished so it will loop back to the current page you are on. The Dark Theme works, but I re-wrote a lot of the CSS and need to go back in and correct the drop down. 

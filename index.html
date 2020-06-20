@@ -13,7 +13,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <!-- materialize icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/CSS/dark.css" />
     <link rel="stylesheet" type="text/css" href="assets/CSS/style.css" />
@@ -28,18 +31,18 @@
   </head>
 
   <body>
-    <!-- new nav build -->
+
+    <!-- nav -->
     <nav>
-      <!-- <div class="nav-wrapper"> -->
       <div class="nav-wrapper">
         <a href="./index.html" class="brand-logo">John Bentley</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"
           ><i class="material-icons">menu</i></a
         >
         <ul class="nav-tabs right hide-on-med-and-down">
-          <li><a href="about.html">About</a></li>
+          <li><a ">About</a></li>
           <li><a href="./assets/pages/projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a >Contact</a></li>
           <li>
             <a>Settings</a>
             <ul>
@@ -59,16 +62,16 @@
       </div>
     </nav>
 
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="settings.html">Settings</a></li>
-      </ul>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="settings.html">Settings</a></li>
+    </ul>
 
-      <!-- Add this to dark theme drop down -->
-        <!-- Switch -->
-        <!-- <div class="switch">
+    <!-- Add this to dark theme drop down -->
+    <!-- Switch -->
+    <!-- <div class="switch">
           <label>
             Off
             <input type="checkbox">
@@ -76,9 +79,9 @@
             On
           </label>
         </div> -->
-        
-        <!-- Disabled Switch -->
-        <!-- <div class="switch">
+
+    <!-- Disabled Switch -->
+    <!-- <div class="switch">
           <label>
             Off
             <input disabled type="checkbox">
@@ -86,59 +89,89 @@
             On
           </label>
         </div> -->
-      
-      <!-- paralax under nav -->
-      <div class="parallax-container">
-        <div class="parallax">
-          <img
+
+    <!-- paralax under nav -->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img
           class="background-image"
           src="./assets/images/background-image.jpeg"
+        />
+      </div>
+    </div>
+
+    <!-- profile image container -->
+    <figure class="container-fluid">
+      <div class="row">
+        <div id="bio-image-container col s12">
+          <img
+            id="bio-image"
+            alternate="Placeholder image until a better photo can be taken"
           />
         </div>
+        <p class="quote">"Stop saying, I can't because...</p>
+        <p class="quote">Start saying, I want to... How can I?"</p>
       </div>
-      
-      <!-- profile image container -->
-      <figure class="container-fluid">
-        <div class="row">
-          <div id="bio-image-container col s12">
-            <img id="bio-image" />
-          </div>
-          <p class="quote">"Stop saying, I can't because...</p>
-          <p class="quote">Start saying, I want to... How can I?"</p>
-        </div>
-      </figure>
+    </figure>
 
-      <!-- recordings of assignments/projects will be placed in the src -->
-          <div class="carousel desktop-carousel">
-            <a class="carousel-item" href="#one!"><img class="materialboxed carousel-video" src="./assets/images/Space Portal _ Main.gif"></a>
-            <a class="carousel-item" href="#two!"><img class="materialboxed carousel-video" src="./assets/images/Password Generator.gif"></a>
-            <a class="carousel-item" href="#three!"><img class="materialboxed carousel-video" src="./assets/images/Work Day Scheduler.gif"></a>
-            <a class="carousel-item" href="#four!"><img class="materialboxed carousel-video" src="./assets/images/Weather Dashboard.gif"></a>
-            <a class="carousel-item" href="#five!"><img class="materialboxed carousel-video" src="./assets/images/Rock Paper Scissors.gif"></a>
-          </div>
+    <!-- recordings of assignments/projects will be placed in the src -->
+    <div class="carousel desktop-carousel">
+      <a class="carousel-item" href="#one!"
+        ><img
+          class="materialboxed carousel-video"
+          src="./assets/images/Space Portal _ Main.gif"
+      /></a>
+      <a class="carousel-item" href="#two!"
+        ><img
+          class="materialboxed carousel-video"
+          src="./assets/images/Password Generator.gif"
+      /></a>
+      <a class="carousel-item" href="#three!"
+        ><img
+          class="materialboxed carousel-video"
+          src="./assets/images/Work Day Scheduler.gif"
+      /></a>
+      <a class="carousel-item" href="#four!"
+        ><img
+          class="materialboxed carousel-video"
+          src="./assets/images/Weather Dashboard.gif"
+      /></a>
+      <a class="carousel-item" href="#five!"
+        ><img
+          class="materialboxed carousel-video"
+          src="./assets/images/Rock Paper Scissors.gif"
+      /></a>
+    </div>
 
-          <!-- mobile carousel // media query -->
-          <div class="carousel carousel-slider center mobile-slider">
-            <div class="carousel-fixed-item center">
-              <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
-            </div>
-            <div class="carousel-item red white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item amber white-text" href="#two!">
-              <h2>Second Panel</h2>
-              <p class="white-text">This is your second panel</p>
-            </div>
-            <div class="carousel-item green white-text" href="#three!">
-              <h2>Third Panel</h2>
-              <p class="white-text">This is your third panel</p>
-            </div>
-            <div class="carousel-item blue white-text" href="#four!">
-              <h2>Fourth Panel</h2>
-              <p class="white-text">This is your fourth panel</p>
-            </div>
-          </div>
+    <!-- mobile carousel // media query -->
+    <div class="carousel carousel-slider center mobile-slider">
+      <div class="carousel-fixed-item center">
+        <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
+      </div>
+      <div class="carousel-item red white-text" href="#one!">
+        <h2>First Panel</h2>
+        <p class="white-text">This is your first panel</p>
+      </div>
+      <div class="carousel-item amber white-text" href="#two!">
+        <h2>Second Panel</h2>
+        <p class="white-text">This is your second panel</p>
+      </div>
+      <div class="carousel-item green white-text" href="#three!">
+        <h2>Third Panel</h2>
+        <p class="white-text">This is your third panel</p>
+      </div>
+      <div class="carousel-item blue white-text" href="#four!">
+        <h2>Fourth Panel</h2>
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+    </div>
+
+    <!-- temporary shortcut link -->
+    <div class="container">
+      <div class="row">
+        <a class="temporary-link" href="./assets/pages/projects.html">Temporary link to Projects</a>
+      </div>
+    </div>
 
     <div id="content wrapper">
       <div class="body-container">
@@ -152,34 +185,44 @@
                 certifications to become a Software Engineer.
               </p>
             </div>
-            <aside id="contact-info" class="col-md-3">
-              <!-- <h3>Contact Info</h3>
-              <section>
-                <ul>
-                  <li>
-                    <strong>Email:</strong>
-                    <a href="jbentey1011@gmail.com">jbentley1011@gmail.com</a>
-                  </li>
-                  <li>
-                    <strong>Github:</strong>
-                    <a
-                      href="https://www.github.com/letsgitthis"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >letsgitthis</a
-                    >
-                  </li>
-                  <li>
-                    <strong>Portfolio:</strong>
-                    <a href="#" target="_blank" rel="noopener noreferrer"
-                      >coming soon</a
-                    >
-                  </li>
-                </ul>
-              </section> -->
-            </aside>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- contact info -->
+    <div class="body-container">
+      <div class="row">
+        <div id="contact-info">
+            <h3>Contact Info</h3>
+            <ul>
+              <li>
+                <strong>Github:</strong>
+                <a
+                href="https://www.github.com/letsgitthis"
+                target="_blank"
+                rel="noopener noreferrer"
+                >letsgitthis</a
+                >
+              </li>
+              <li>
+                <strong>LinkedIn:</strong>
+                <a 
+                href="https://www.linkedin.com/in/jonathan-bentley-94a127190/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                >Link</a
+                >
+              </li>
+              <li>
+                <strong>Email:</strong>
+                <a 
+                  href="jbentey1011@gmail.com"
+                  >jbentley1011@gmail.com</a
+                  >
+              </li>
+            </ul>
+          </div>
       </div>
     </div>
 
@@ -200,16 +243,13 @@
   </body>
 
   <!-- footer -->
-    <footer class="footer">
-      <h6>Made By JohnBentley | 2020 Portfolio</h6>
-        Icons made by
-        <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
-          >Freepik</a
-        >
-        from
-        <a href="https://www.flaticon.com/" title="Flaticon"
-          >www.flaticon.com</a
-        >
-    </footer>
-
+  <footer class="footer">
+    <h6>Made By JohnBentley | 2020 Portfolio</h6>
+    Icons made by
+    <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+      >Freepik</a
+    >
+    from
+    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+  </footer>
 </html>
