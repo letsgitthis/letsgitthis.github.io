@@ -99,8 +99,14 @@ h1, h2 {
     color: white !important;
 }
 
+@media screen and (min-width: 850px) {
+    .mobile-slider {
+         display: none;
+     }
+}
+
 .carousel-video {
-    height: 300px;
+    height: 200px;
     width: 300px;
 }
 
