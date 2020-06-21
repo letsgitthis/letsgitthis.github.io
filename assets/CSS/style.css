@@ -201,15 +201,23 @@ p {
     background-color: #007bb6;
 }
 
-.footer {
-    color: white;
-    text-align: center;
-}
-
 #main-bio {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-left: 50vh;
     margin-right: 50vh;
+}
+
+.coming-soon {
+    text-align: center;
+    font-size: 5vh;
+    color: white;
+    margin-top: 40vh;
+    margin-bottom: 40vh;
+}
+
+.footer {
+    color: white;
+    text-align: center;
 }
