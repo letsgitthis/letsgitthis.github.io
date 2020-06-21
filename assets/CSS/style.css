@@ -112,16 +112,14 @@ h1, h2 {
 }
 
 .carousel-video {
-    /* height: 200px;
-    width: 300px; */
     width: 100%;
 }
 
-/* .card-video {
-    height: 306px !important;
-    width: 576px !important;
-    margin-left: 20%;
-} */
+/* use when placing a temporary item */
+.temporary {
+    margin: 0;
+    padding: 0;
+}
 
 .temporary-link {
     display: flex;
@@ -153,7 +151,7 @@ ul li a {
 
 ul li a:hover {
     background-color: black;
-    opacity: 1.6;
+    /* opacity: 1.6; */
     color:  white;
 }
 
