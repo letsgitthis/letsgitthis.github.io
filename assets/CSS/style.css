@@ -36,6 +36,7 @@ body {
 
 .parallax-container {
     height: 50vh;
+    max-height: 400px;
 }
 
 .background-image {
@@ -45,8 +46,8 @@ body {
 
 /* image is too narrow to fill circle */
 #bio-image {
-    width: 350px;
-    height: 350px;
+    width: 30vh;
+    height: 30vh;
     max-height: 350px;
     border-radius: 50%;
     display: block;
