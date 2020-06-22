@@ -1,179 +1,205 @@
 body {
-    display: block;
-    margin: 0;
-    margin-bottom: 100px;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    height: 100%;
-    max-height: 300px;
-    background-color: #333;
-    margin: 0;
-    width: 100%;
+  display: block;
+  margin: 0;
+  margin-bottom: 100px;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  height: 100%;
+  max-height: 300px;
+  background-color: #333;
+  margin: 0;
+  width: 100%;
 }
 
 .body-container {
-    height: 200px;
-    margin: 0;
-    padding: 0;
+  height: 200px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-wrapper {
-    background-color: black;
-    /* opacity: 0.7; */
-    overflow: visible;
+  background-color: black;
+  /* opacity: 0.7; */
+  overflow: visible;
 }
 
 .brand-logo {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .nav-tabs li a {
-    font-size: larger;
-    padding-top: 10px;
+  font-size: larger;
+  padding-top: 10px;
 }
 
 .parallax-container {
-    height: 50vh;
-    max-height: 400px;
+  height: 50vh;
+  max-height: 400px;
 }
 
 .background-image {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
 }
 
 /* image is too narrow to fill circle */
 #bio-image {
-    width: 30vh;
-    height: 30vh;
-    max-height: 350px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -18vh;
-    background-image:url("../images/profile-image.jpg");
-    background-position: center;
-    background-size: contain;
-    /* background-repeat: no-repeat; */
-    overflow: visible;
+  width: 30vh;
+  height: 30vh;
+  max-height: 350px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -18vh;
+  background-image: url("../images/profile-image.jpg");
+  background-position: center;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  overflow: visible;
 }
 
 .quote {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2 {
-    background-color: black;
-    color: #efeee7;
-    margin: 0;
-    /* text-align: center; */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 28px;
-    opacity: .8;
+h1,
+h2 {
+  background-color: black;
+  color: #efeee7;
+  margin: 0;
+  /* text-align: center; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 28px;
+  opacity: 0.8;
 }
 
 .menu {
-    width: 100%;
-    height: 80px;
-    background-color: black;
-    opacity: .8;
-    display: flex;
-    /* flex-direction: row-reverse; */
-    /* make fluid */
-    /* color: white; */
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  opacity: 0.8;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* make fluid */
+  /* color: white; */
 }
 
 .sidenav {
-    background-color: black;
+  background-color: black;
 }
 
 .sidenav a {
-    color: white !important;
+  color: white !important;
 }
 
 @media screen and (min-width: 850px) {
-    .mobile-slider {
-         display: none;
-     }
+  .mobile-slider {
+    display: none;
+  }
+}
+
+.carousel {
+    margin-bottom: -150px;
 }
 
 .carousel-video {
-    width: 100%;
+  width: 100%;
 }
 
 /* use when placing a temporary item */
 .temporary {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .temporary-link {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 ul li {
-    float: left;
-    width: 100px;
-    height: 40px;
-    /* opacity: .8; */
-    line-height: 40px;
-    text-align: center;
-
+  float: left;
+  width: 100px;
+  height: 40px;
+  /* opacity: .8; */
+  line-height: 40px;
+  text-align: center;
 }
 
 ul li a {
-    text-decoration: none;
-    color: white;
-    display: block;
+  text-decoration: none;
+  color: white;
+  display: block;
 }
 
 ul li a:hover {
-    background-color: black;
-    /* opacity: 1.6; */
-    color:  white;
+  background-color: black;
+  /* opacity: 1.6; */
+  color: white;
 }
 
 ul li ul li {
-    display: none;
+  display: none;
 }
 
 ul li:hover ul li {
-    display: block;
+  display: block;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 p {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-right: 50px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-right: 50px;
+}
+
+#main-bio {
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  margin-left: 10vh;
 }
 
 #contact-info {
-    margin-left: 100px;
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+
+@media screen and (max-width: 1366px) {
+  #main-bio {
+    margin-left: 0vh;
+  }
+
+  #contact-info {
+    margin-top: 5vh;
+    margin-left: 5vh;
+  }
+
+  #contact-info ul li:nth-child(3) {
+    display: none;
+  }
 }
 
 /* Style all font awesome icons */
@@ -192,32 +218,25 @@ p {
 }
 
 .fa-github {
-    width: 70%;
-    background-color: black;
+  width: 70%;
+  background-color: black;
 }
 
 .fa-linkedin {
-    width: 70%;
-    background-color: #007bb6;
-}
-
-#main-bio {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 50vh;
-    margin-right: 50vh;
+  width: 70%;
+  background-color: #007bb6;
 }
 
 .coming-soon {
-    text-align: center;
-    font-size: 5vh;
-    color: white;
-    margin-top: 40vh;
-    margin-bottom: 40vh;
+  text-align: center;
+  font-size: 5vh;
+  color: white;
+  margin-top: 40vh;
+  margin-bottom: 40vh;
 }
 
 .footer {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
+  margin-top: 50vh;
 }
